@@ -1,0 +1,11 @@
+.center{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+#canvas1{
+  border: 5px black solid;
+  height: 600px;
+  width: 600px;
+}
