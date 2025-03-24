@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Quiz</title>
+  <link rel="stylesheet" href="quiz.css">
+</head>
+<body>
+  <!--Sidebar-->
+  <div class="sidebar">
+    <button class="js-debata-button">
+      Debata
+    </button>
+    <button class="js-inkvizice-button">
+      Inkvizice
+    </button>
+    <button class="js-zpivanky-button">
+      Zpívánky
+    </button>
+    <button class="js-hon-na-srnecky-2-button">
+      Hon na srnečky 2
+    </button>
+    <button class="js-jidelni-expres-button">
+      Jídelní expres
+    </button>
+    <button class="js-stejkova-reakce-button">
+      Stejkova reakce
+    </button>
+    <button class="js-tyx-button">
+      Tyx
+    </button>
+    <button class="js-recept-button">
+      Recept
+    </button>
+  </div>
+  <div class="main">
+    <div class="quiz-box">
+      <p class="question">
+        Doplň:
+      </p>
+      <img class="question-img" src="images/debata1.jpg">
+      <div class="answer">
+      <!--
+        <button class="answer-button">
+          dobrá
+        </button>
+      -->
+        <div class="doplnovacka">
+          A vy pane srnečku jste
+          <select class="selection">
+            <option value="false">...</option>
+            <option value="false">Brnem</option>
+            <option value="true">Prahou</option>
+          </select>
+          démon.
+        </div>
+      </div>
+      <div class="vyhodnoceni-container">
+        <button>
+          Vyhodnotit
+        </button>
+        <button>
+          Nevím
+        </button>
+      </div>
+    </div>
+  </div>
+  <script src="quiz.js"></script>
+</body>
+</html>
