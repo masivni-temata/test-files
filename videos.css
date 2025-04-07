@@ -1,0 +1,17 @@
+.videos{
+  margin-top: 50px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.videos h1{
+  color: lightgreen;
+}
+
+.videos iframe{
+  margin-top: 50px;
+  border: pink 5px solid;
+  border-radius: 5px;
+}

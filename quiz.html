@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Quiz</title>
+  <link rel="stylesheet" href="quiz.css">
+</head>
+<body>
+  <!--Sidebar-->
+  <div class="sidebar">
+    <button class="js-debata-button">
+      Debata
+    </button>
+    <button class="js-inkvizice-button">
+      Inkvizice
+    </button>
+    <button class="js-zpivanky-button">
+      Zpívánky
+    </button>
+    <button class="js-hon-na-srnecky-2-button">
+      Hon na srnečky 2
+    </button>
+    <button class="js-jidelni-expres-button">
+      Jídelní expres
+    </button>
+    <button class="js-stejkova-reakce-button">
+      Stejkova reakce
+    </button>
+    <button class="js-tyx-button">
+      Tyx
+    </button>
+    <button class="js-recept-button">
+      Recept
+    </button>
+  </div>
+  <div class="main">
+    <div class="quiz-box">
+      <p class="question">
+        Co dělala příšera kejda se svými kamarády?
+      </p>
+      <img class="question-img" src="images/stejkova reakce/co mu slezlo z videa.jpg">
+      <div class="answer">
+        <div class="doplnovacka">
+          Kejda byla se svými kamarády 
+          <select class="selection">
+            <option value="false">...</option>
+            <option value="false">na schůzce</option>
+            <option value="true">v hospodě</option>
+            <option value="false">v muzeu</option>
+          </select>
+          .
+        </div>
+      </div>
+      <div class="vyhodnoceni-container">
+        <button class="js-button-correct">Vyhodnotit</button>
+        <button class="js-button-incorrect">Nevím</button>
+      </div>
+    </div>
+    <button class="next-button js-next-button">
+      <img src="images/next-button img.svg">
+    </button>
+  </div>
+  <script src="quiz.js"></script>
+</body>
+</html>

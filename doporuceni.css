@@ -1,0 +1,27 @@
+.doporuceni{
+  padding-top: 80px;
+  padding-left: 75px;
+}
+
+.doporuceni button{
+  background-color: lightgreen;
+  border: none;
+  height: 65px;
+  width: 50%;
+  font-size: 25px;
+  font-weight: bold;
+  color: lightpink;
+  margin-bottom: 50px;
+  border-radius: 10px;
+  transition: color 0.15s, width 0.15s, background-color 0.15s;
+  cursor: pointer;
+}
+
+.doporuceni button:hover{
+  color: white;
+  width: 70%;
+}
+
+.doporuceni button:active{
+  background-color: lightblue;
+}
