@@ -1,0 +1,18 @@
+body{
+  font-family: Arial;
+  background-color: lightgreen;
+}
+
+.container-of-website{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.website{
+  border: solid pink 10px;
+  border-radius: 10px;
+  width: 700px;
+  padding-bottom: 50px;
+  background-color: white;
+}
